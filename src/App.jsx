@@ -1,11 +1,18 @@
 import React from 'react'
 
+//Importando los modulos de Firebase
+import appFirebase from '../src/credenciales'
+import { getAuth, onAuthStateChanged } from 'firebase/auth'
+const auth = getAuth(appFirebase)
+
+
+
 function App() {
   return (
     <>
-      <h1 className='text-4xl font-bold'>
-        Hello World!
-      </h1>
+      <div>
+
+      </div>
     </>
   )
 }
